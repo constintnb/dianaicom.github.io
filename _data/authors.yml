@@ -1,22 +1,26 @@
-"Your Name":
-  bold: true
+"Ruiqiu Wang":
+  name: "Ruiqiu Wang"
 
-"Robert White":
-  url: https://www.google.com/?q=Robert+White
+"Zihang Zhang":
+  name: "Zihang Zhang"
 
-"Charles Green (MIT)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+MIT
+"Meizi Yang":
+  name: "Meizi Yang"
 
-"Charles Green (Stanford)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+Stanford
+"Xiaojun Hei":
+  name: "Xiaojun Hei"
 
-"Garrett Harris":
-  url: https://www.google.com/?q=Garrett+Harris
+"Leyu Zhao":
+  name: "Leyu Zhao"
 
-"James Wang":
-  url: https://www.google.com/?q=James+Wang
+"Yuehan Liu":
+  name: "Yuehan Liu"
 
-"John Doe":
-  url: https://www.google.com/?q=John+Doe
+"Di Liu":
+  name: "Di Liu"
+
+"Yu Zhang":
+  name: "Yu Zhang"
+
+"Liyang Liu":
+  name: "Liyang Liu"
