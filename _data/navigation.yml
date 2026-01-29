@@ -3,8 +3,6 @@ pages:
 #       For example, the `navbar_title` field in `showcase.html` is "Showcase" and the `name` field here should also be "Showcase"
 - name: 首页
   url: /
-- name: 首页 (Layout 2)
-  url: /index_layout2
 - name: 成员
   url: /members
 - name: 论文
