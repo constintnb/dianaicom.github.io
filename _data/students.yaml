@@ -1,0 +1,49 @@
+# 在读组员数据列表
+# 格式:
+# - name: 姓名
+#   photo: 图片路径 (assets/images/members/xxx.jpg)
+#   research: 研究方向
+
+- name: 杨美子
+  photo: assets/images/members/ymz.jpg
+  research: 
+
+- name: 刘越晗
+  photo: assets/images/members/lyh.jpg
+  research: 
+
+- name: 刘力扬
+  photo: assets/images/members/lly.jpg
+  research: 
+
+- name: 董嘉城
+  photo: assets/images/members/djc.jpg
+  research: 
+
+- name: 王睿秋
+  photo: assets/images/members/wrq.jpg
+  research: 
+
+- name: 张鲁嘉
+  photo: assets/images/members/zlj.jpg
+  research: 
+
+- name: 刘欣澜
+  photo: assets/images/members/lxl.jpg
+  research: 
+
+- name: 容国翔
+  photo: assets/images/members/rgx.jpg
+  research: 
+
+- name: 周子航
+  photo: assets/images/members/zzh.jpg
+  research: 
+
+- name: 罗佳良
+  photo: assets/images/members/ljl.jpg
+  research: 
+
+- name: 孔凌峰
+  photo: assets/images/members/klf.jpg
+  research:
