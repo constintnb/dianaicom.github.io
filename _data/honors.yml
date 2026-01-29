@@ -1,0 +1,13 @@
+# 这里定义整个卡片的标题和图标
+title: "学科竞赛成果"
+icon: "fas fa-trophy"
+
+# 下面是具体的列表项
+items:
+  - name: "“华为杯”第二十二届中国研究生数学建模竞赛"
+    date: "2025"
+    icon: "fas fa-medal text-primary" # 支持 FontAwesome 图标，text-warning 是黄色
+    members: "杨美子、朱市澳、游洋"
+    badges:
+      - text: "国家三等奖"
+        class: "badge-warning text-white" # 徽章样式：黄色背景

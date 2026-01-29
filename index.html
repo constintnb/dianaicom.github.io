@@ -19,6 +19,10 @@ navbar_title: Home
         {% if site.data.display.homepage.show_experience %}
             {% include widgets/experience_card.html %}
         {% endif %}
+        
+        {% include widgets/interests_card.html %}
+
+        {% include widgets/generic_list.html source=site.data.honors %}
 
         {% if site.data.display.homepage.show_news %}
         {% assign count_news = site.news | size %}

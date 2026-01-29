@@ -47,8 +47,5 @@ authors:
 
 # 链接按钮 (自动生成对应的按钮)
 links:
-  Paper: https://arxiv.org/abs/xxxx
-  Code: https://github.com/username/repo
-  Demo: https://username.github.io/project
-  Video: https://youtube.com/watch?v=xxxx
+  Paper: https://hustdian.feishu.cn/file/TRp2b9VLWo3U1ixAyftcSKQfnPd
 ---

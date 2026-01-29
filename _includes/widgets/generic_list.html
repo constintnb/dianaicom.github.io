@@ -1,0 +1,64 @@
+{% comment %}
+  通用列表组件 (Generic List Widget)
+  功能: 根据传入的 YAML 数据源生成带有图标、徽章和成员名单的列表卡片
+  使用方法: {% include widgets/generic_list.html source=site.data.filename %}
+{% endcomment %}
+
+{% assign data = include.source %}
+
+<div class="row mt-3">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-4">
+                <h5 class="card-title mb-4">
+                    {% if data.icon %}
+                    <i class="{{ data.icon }}"></i>
+                    {% endif %}
+                    {{ data.title }}
+                </h5>
+                
+                <div class="list-group list-group-flush">
+                    {% for item in data.items %}
+                    <div class="list-group-item px-0 border-0 mb-3 pb-0">
+                        <div class="d-flex align-items-center">
+                            
+                            {% if item.icon %}
+                            <div class="mr-3">
+                                <i class="{{ item.icon }} fa-2x"></i>
+                            </div>
+                            {% endif %}
+
+                            <div class="w-100">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h6 class="font-weight-bold mb-0">{{ item.name }}</h6>
+                                    {% if item.date %}
+                                    <small class="text-muted">{{ item.date }}</small>
+                                    {% endif %}
+                                </div>
+                                
+                                <div class="mt-1 small">
+                                    {% for badge in item.badges %}
+                                    <span class="badge {{ badge.class }} mr-1">{{ badge.text }}</span>
+                                    {% endfor %}
+                                    
+                                    {% if item.desc %}
+                                    <span class="text-muted mr-2">{{ item.desc }}</span>
+                                    {% endif %}
+                                </div>
+
+                                {% if item.members %}
+                                <div class="mt-1 small text-muted">
+                                    <i class="fas fa-users mr-1"></i>  {{ item.members }}
+                                </div>
+                                {% endif %}
+                                
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
